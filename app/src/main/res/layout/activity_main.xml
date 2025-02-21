@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <!-- Hàng 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFF"
+            android:text="01"
+            android:textSize="24sp"
+            android:textColor="#FF4500"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF00FF"
+            android:text="03"
+            android:textSize="24sp"
+            android:textColor="#FF4500"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Hàng 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FF99"
+            android:text="04"
+            android:textSize="24sp"
+            android:textColor="#FF4500"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:text="06"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Hàng 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0080C0"
+            android:text="02"
+            android:textSize="24sp"
+            android:textColor="#FF4500"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0B3861"
+            android:text="05"
+            android:textSize="24sp"
+            android:textColor="#FF4500"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00AEEF"
+            android:text="06"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Cột cuối cùng (màu vàng) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:text="07"
+        android:textSize="24sp"
+        android:textColor="#FF4500"
+        android:gravity="center"/>
+</LinearLayout>
